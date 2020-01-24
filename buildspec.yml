@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: openjdk11
+  pre_build:
+    commands:
+      - ./gradlew test
+  build:
+    commands:
+      - ./gradlew bootJar
+  post_build:
+    commands:
+      - echo Build completed on `date`
+      - mv build/libs/project-management-system-0.0.1-SNAPSHOT.jar application.jar
+artifacts:
+  files:
+    - application.jar

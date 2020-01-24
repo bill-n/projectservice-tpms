@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.turntabl.employementprofilingsystem.EmployementProfilingSystemApplicationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-01-23T23:49:08" hostname="ali-HP-ENVY-15-X360-PC" time="0.031">
+  <properties/>
+  <testcase name="getAllEmployeeProfile()" classname="io.turntabl.employementprofilingsystem.EmployementProfilingSystemApplicationTests" time="0.027"/>
+  <testcase name="addEmployee()" classname="io.turntabl.employementprofilingsystem.EmployementProfilingSystemApplicationTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
